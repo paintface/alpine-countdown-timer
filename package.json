@@ -1,0 +1,20 @@
+{
+  "name": "@paintface_danny/alpine-countdown-timer",
+  "version": "1.0.0",
+  "description": "A simple, reactive countdown timer directive for Alpine.js that provides an easy-to-use countdown functionality with automatic formatting, store management, and smooth transitions.",
+  "keywords": [
+    "alpine",
+    "alpinejs",
+    "plugin",
+    "countdown",
+    "timer"
+  ],
+  "module": "dist/alpine-countdown-timer.esm.js",
+  "unpkg": "dist/alpine-countdown-timer.min.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.4"
+  }
+}
